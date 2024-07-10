@@ -5,10 +5,10 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "dev":"nodemon index.js",
-        "start": "nodemon index.js",
-        "build":"npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
-    },
+    "start": "node index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "vercel-build": "npm run build"
+  },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/akhil2k-lc/bookStoreApp.git"
